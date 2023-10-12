@@ -1,7 +1,8 @@
 import './App.css';
 import { createNote, deleteNote} from './graphql/mutations'
 import { listNotes } from './graphql/queries'
-import { withAuthenticator, Button, Text, Flex, Heading } from "@aws-amplify/ui-react";
+import { withAuthenticator } from "@aws-amplify/ui-react";
+import { Button, Text, Flex, Heading } from "@aws-amplify/ui";
 import { useCallback, useEffect, useState } from 'react';
 import { API } from 'aws-amplify';
 
